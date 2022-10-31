@@ -1,0 +1,198 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+/*INICIO HEADER*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    width: 100%;
+    height: 4rem;
+    padding: 0 5rem;
+    border-color: #fff;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img{
+    height: 3rem;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+}
+
+nav a{
+    font-size: 0.9rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 1rem;
+    color: #474747;
+    text-decoration: none;
+}
+
+.ultimos{
+    font-weight: 700;
+    color: #000;
+}
+
+.options{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 7rem;
+}
+
+.options img:first-child{
+    width: 1.75rem;
+}
+
+.options img{
+    width: 2rem;
+}
+
+.user-menu{
+    position: relative;
+    right: 0;
+    bottom: -5.35rem;
+    display: flex;
+    flex-direction: column;
+    border-color: #fff;
+}
+
+.user-menu a{
+    padding: 0.75rem 2rem;
+}
+
+/*FINAL HEADER*/
+
+
+/*INICIO MAIN*/
+
+main{
+    padding: 2.5rem 0;
+    background-color: lightgray;
+    
+}
+
+h1{
+    font-size: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000;
+    margin-bottom: 2rem;
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 1rem;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.field{
+    display: block;
+    flex-direction:column;
+    width: 14rem;
+    margin: 0.5rem 0;
+}
+
+.field label{
+    font-size: 0.9rem;
+    margin-bottom: 0.2rem;
+    color: #000;
+}
+
+.field input{
+    font-size: 0.8rem;
+    height: 1.8rem;
+    padding-left: 0.5rem;
+    border: 2px solid #696969;
+    border-radius: 5px;
+}
+
+.field select{  
+    font-size: 1.1rem; 
+    height: 2.2rem;
+    width: 12rem;
+    padding-left: 0.5rem;
+    border: 2px solid #696969;
+    border-radius: 5px;
+}
+
+.field select option{
+    font-size: 0.8rem;
+}
+
+.textbox{
+    display: flex;
+    flex-direction: column;
+    width: 18rem;
+    margin: 0.75rem 0;
+}
+
+.textbox label{
+    font-size: 0.9rem;
+    margin-bottom: 0.2rem;
+    color: #000;
+}
+
+textarea{
+    font-size: 1.1rem;
+    min-width: 90%;
+    height: 8rem;
+    max-height: 10rem;
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+    border: 2px solid #696969;
+    border-radius: 5px;
+}
+
+.guardar{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+button{
+    padding: 0.7rem 2rem;
+    border: 2px solid #696969;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #68f493;
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+/*FINAL MAIN*/

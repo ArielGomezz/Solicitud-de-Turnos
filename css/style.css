@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #4B79A1;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #283E51, #4B79A1);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #283E51, #4B79A1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.formulario{
+    width: 700px;
+    min-width: 200px;
+    border-radius: 10px;
+    margin: 10px;
+    border: solid 1px #000;
+}
+
+.formulario img{
+    width: 110px;
+    display: block;
+    margin: 20px auto;
+}
+
+.texto{
+    text-align: center;
+    font-size: 1.5rem;
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+.formulario input{
+    display: block;
+    margin: auto;
+    height: 40px;
+    width: 75%;
+    padding-left: 10px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 2px;
+    background-color: transparent;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 1rem;
+    outline: none;
+}
+
+.formulario input[type="password"]{
+    margin-top: 20px;
+}
+
+::placeholder{
+    font-size: 1rem;
+    color: rgba(255, 255, 255, .596);
+}
+
+.formulario input:hover{
+    transition: 0.5s;
+    border: 1px solid #292929;
+}
+
+.formulario button{
+    font-size: 15px;
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    height: 40px;
+    width: 38%;
+    background: transparent;
+    border-radius: px;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+}
+
+.formulario button:hover{
+    background-color:#00639e;
+}
+
+
+
+
+
+
+.mjs-error h5{
+    justify-content: center;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+
+}

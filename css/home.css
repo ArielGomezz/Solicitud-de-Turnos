@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+    background: #4B79A1;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #283E51, #4B79A1);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #283E51, #4B79A1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.formulario{
+    width: 700px;
+    min-width: 200px;
+    border-radius: 10px;
+    margin: 10px;
+    border: solid 1px #000;
+}
+
+.formulario img{
+    width: 110px;
+    display: block;
+    margin: 20px auto;
+}
+
+.texto{
+    text-align: center;
+    font-size: 1.3rem;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+
+
+button {
+    font-size: 14px;
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    height: 35px;
+    width: 48%;
+    background: transparent;
+    border-radius: 1px;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.formulario button a{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+.uno:hover{
+    background-color: #b65867 ;
+}
+
+.dos:hover{
+    background-color: #80a051;
+}
